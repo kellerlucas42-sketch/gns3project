@@ -53,7 +53,7 @@ If the images are stored alongside this Markdown file, you can use this format a
 ![Switch trunk status](screenshots/06-interface-trunk.png)
 ![Spanning Tree summary](screenshots/07-stp-summary.png)
 ![ESW-ODD routing table](screenshots/08-esw-odd-show-ip-route.png)
-![ESW-EVEN routing table](images/Screenshot%202026-10-06%20132656.png)
+![ESW-EVEN routing table](images/"Screenshot 202026-10-06 20132656.png")
 ![Wireshark TTL 1](screenshots/10-wireshark-ttl-1.png)
 ![Wireshark TTL 3](screenshots/11-wireshark-ttl-3.png)
 ![Wireshark TTL 5](screenshots/12-wireshark-ttl-5.png)
