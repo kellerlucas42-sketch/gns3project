@@ -27,37 +27,46 @@ Each router decreases the packet's Time to Live (TTL) by one as it forwards the 
 
 Add the screenshots in the following order. Replace each placeholder with the relevant image filename or a Markdown image link.
 
-1. **PC1 IP configuration and connectivity tests** — PC1 showing its IP configuration and pings to PC4, PC5, and PC8.
-2. **Network topology** — the GNS3 topology for the lab.
-3. **R1 routing table** — output of `show ip route` on R1.
-4. **R2 routing table** — output of `show ip route` on R2.
-5. **Switch interface status** — `show interfaces status` output.
-6. **Switch trunk configuration** — `show interfaces trunk` output.
-7. **Spanning Tree summary** — `show spanning-tree summary` output.
-8. **ESW-ODD routing table** — output of `show ip route` on ESW-ODD.
-9. **ESW-EVEN routing table** — output of `show ip route` on ESW-EVEN.
-10. **Wireshark capture, TTL 1** — probe packet showing TTL 1 and the corresponding ICMP response.
-11. **Wireshark capture, TTL 3** — probe packet showing TTL 3 and the corresponding ICMP response.
-12. **Wireshark capture, TTL 5** — probe packet showing TTL 5 and the corresponding ICMP response.
+## Screenshots
 
-### Screenshot placeholders
+1. **Network topology** — `1topology.png`
+   
+   ![GNS3 network topology](images/1topology.png)
+2. **PC1 IP configuration** — `pc1ip.png`
+   
+   ![PC1 IP configuration](images/pc1ip.png)
 
-If the images are stored alongside this Markdown file, you can use this format and update each filename:
+3. **R1 routing table** — `r1routes.png`
+   
+   ![R1 routing table](images/r1routes.png)
 
-```markdown
-![PC1 IP configuration and pings](screenshots/01-pc1-ip-and-pings.png)
-![GNS3 network topology](screenshots/02-network-topology.png)
-![R1 routing table](screenshots/03-r1-show-ip-route.png)
-![R2 routing table](screenshots/04-r2-show-ip-route.png)
-![Switch interface status](screenshots/05-interface-status.png)
-![Switch trunk status](screenshots/06-interface-trunk.png)
-![Spanning Tree summary](screenshots/07-stp-summary.png)
-![ESW-ODD routing table](screenshots/08-esw-odd-show-ip-route.png)
-![ESW-EVEN routing table](./images/"Screenshot 202026-10-06 20132656.png")
-![Wireshark TTL 1](screenshots/10-wireshark-ttl-1.png)
-![Wireshark TTL 3](screenshots/11-wireshark-ttl-3.png)
-![Wireshark TTL 5](screenshots/12-wireshark-ttl-5.png)
-```
+4. **R2 routing table** — `r2routes.png`
+   
+   ![R2 routing table](images/r2routes.png)
+
+5. **ESW-EVEN Switch interface status** — `portsESWEVEN.png`
+   
+   ![Switch interface status](images/portsESWEVEN.png)
+
+8. **ESW-ODD Switch Trunk and STP summary** — `ESWODDinttrunkkk.png`
+   
+   ![ESW-ODD configuration](images/ESWODDinttrunk.png)
+
+9. **ESW-EVEN Switch Trunk and STP summary** — `ESWEVENinttrunkkk.png`
+   
+   ![ESW-EVEN configuration](images/ESWEVENinttrunkkk.png)
+
+10. **Wireshark capture** — `wireshark1.png`
+    
+    ![Wireshark capture 1](images/wireshark1.png)
+
+11. **Wireshark capture** — `wireshark2.png`
+    
+    ![Wireshark capture 2](images/wireshark2.png)
+
+12. **Wireshark packet details** — `wiresharkpackett.png`
+    
+    ![Wireshark packet details](images/wiresharkpackett.png)
 
 ## Conclusion
 
